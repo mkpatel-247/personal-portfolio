@@ -47,7 +47,7 @@ export class AboutComponent {
       ],
     },
     {
-      company: 'AOF Engineering Systems, LLC',
+      company: 'Alhansat Solutions',
       position: 'Full Stack Developer Intern',
       time_period: 'Sep 2023 - Nov 2023',
       place: 'Remote',

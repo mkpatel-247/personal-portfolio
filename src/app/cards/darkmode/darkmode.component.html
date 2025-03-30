@@ -1,9 +1,9 @@
 <div
     class="bg-white rounded-[30px] p-6 md:p-10 flex flex-col justify-center hover:shadow-lg h-[280px] dark:bg-gray-800 dark:text-white items-center">
 
-    <input id="switch" type="checkbox" [checked]="darkModeService.darkModeSignel() === 'dark'"
+    <input id="switch" type="checkbox" [checked]="darkModeService.darkModeSignal() === 'dark'"
         (change)="toggleDarkMode()">
-    <div class="app" [class.dark]="darkModeService.darkModeSignel() === 'dark'">
+    <div class="app" [class.dark]="darkModeService.darkModeSignal() === 'dark'">
         <div class="body">
             <div class="phone">
                 <div class="menu">

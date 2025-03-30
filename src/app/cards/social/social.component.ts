@@ -8,4 +8,8 @@ import { initFlowbite } from 'flowbite';
   templateUrl: './social.component.html',
   styleUrl: './social.component.css',
 })
-export class SocialComponent {}
+export class SocialComponent implements OnInit {
+  ngOnInit(): void {
+    initFlowbite();
+  }
+}
